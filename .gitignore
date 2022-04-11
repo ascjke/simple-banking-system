@@ -29,11 +29,13 @@ git.properties
 *iml
 *iws
 .idea
-.gradle
+/.gradle
 *ipr
-*yaml
 ishopdb
 
 #JETBrains education files
-Topics
-Simple Banking System
+/Topics
+/Simple Banking System
+course-remote-info.yaml
+course-info.yaml
+Test.java
