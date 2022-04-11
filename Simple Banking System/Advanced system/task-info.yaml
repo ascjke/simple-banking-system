@@ -1,17 +1,6 @@
 type: edu
 custom_name: stage4
 files:
-- name: src/banking/Main.java
-  visible: true
-  text: |-
-    package banking;
-
-    public class Main {
-        public static void main(String[] args) {
-            System.out.println("Hello, world!");
-        }
-    }
-  learner_created: false
 - name: test/SimpleBankSystemTest.java
   visible: false
   text: |
@@ -825,27 +814,6 @@ files:
         }
     }
   learner_created: true
-- name: src/banking/AccountInterface.java
-  visible: true
-  text: |
-    package banking;
-
-
-    public interface AccountInterface {
-
-        void start();
-
-        int mainMenuSelection();
-
-        Account createAccount();
-
-        void logIntoAccount();
-
-        int accountMenuSelections();
-
-        void accountMenuActions(Account account);
-    }
-  learner_created: true
 - name: src/banking/Account.java
   visible: true
   text: |-
@@ -1053,6 +1021,38 @@ files:
         }
     }
   learner_created: true
+- name: src/banking/AccountInterface.java
+  visible: true
+  text: |
+    package banking;
+
+
+    public interface AccountInterface {
+
+        void start();
+
+        int mainMenuSelection();
+
+        Account createAccount();
+
+        void logIntoAccount();
+
+        int accountMenuSelections();
+
+        void accountMenuActions(Account account);
+    }
+  learner_created: true
+- name: src/banking/Main.java
+  visible: true
+  text: |-
+    package banking;
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello, world!");
+        }
+    }
+  learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8428#comment
 status: Solved
 feedback:
